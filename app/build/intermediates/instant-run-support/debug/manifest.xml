@@ -25,10 +25,7 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
 
     <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
@@ -39,6 +36,10 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.kaliya.lbr.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
@@ -64,11 +65,15 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
 
-        <service android:name="com.kaliya.lbr.GeofenceTransitionsIntentService" />
+        <service
+            android:name="com.kaliya.lbr.GeofenceTransitionsIntentService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name="com.kaliya.lbr.MyGoogleApiClientService" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyC4uQ4OuOvvKpLLjiZN2GEuI3_P5AVU31E" />
 
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

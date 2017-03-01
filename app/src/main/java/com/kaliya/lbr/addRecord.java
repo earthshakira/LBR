@@ -50,7 +50,7 @@ public class addRecord extends AppCompatActivity implements
         txtDate.setOnClickListener(this);
         txtTime.setOnClickListener(this);
 
-        db = new DBHandler(this, null, null, 1);
+        db = new DBHandler(this, null, null, 2);
 
         //launching the map acivity
         getPlace.setOnClickListener(new View.OnClickListener() {
@@ -77,8 +77,10 @@ public class addRecord extends AppCompatActivity implements
 
 
     public void saveTask(View view) {
-        Reminder reminder = new Reminder(taskName.getText().toString(), getPlace.getText().toString(), txtDate.getText().toString(), txtTime.getText().toString());
+        Reminder reminder = new Reminder(taskName.getText().toString(), latitude+","+longitude, txtDate.getText().toString(), txtTime.getText().toString(),getPlace.getText().toString());
         db.addReminder(reminder);
+        stopService(new Intent(this,MyGoogleApiClientService.class));
+        startService(new Intent(this,MyGoogleApiClientService.class));
         Intent intent = new Intent(this, MainActivity.class);
         /*Bundle bundle = new Bundle();
         bundle.putString("taskName", String.valueOf(taskName));

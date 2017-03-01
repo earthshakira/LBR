@@ -6,6 +6,7 @@ public class Reminder {
     private int _id;
     private String _taskname;
     private String _location;
+    private String _place;
     private String _date;
     private String _time;
 
@@ -17,6 +18,24 @@ public class Reminder {
         this._location = _location;
         this._date = _date;
         this._time = _time;
+        this._place = null;
+    }
+
+    public Reminder(int _id,String _taskname, String _location, String _date, String _time,String _place) {
+        this._id = _id;
+        this._taskname = _taskname;
+        this._location = _location;
+        this._date = _date;
+        this._time = _time;
+        this._place = _place;
+    }
+
+    public Reminder(String _taskname, String _location, String _date, String _time,String _place) {
+        this._taskname = _taskname;
+        this._location = _location;
+        this._date = _date;
+        this._time = _time;
+        this._place = _place;
     }
 
     public Reminder( String _taskname, String _location, String _date, String _time ) {
@@ -64,5 +83,13 @@ public class Reminder {
 
     public String get_time() {
         return _time;
+    }
+
+    public void set_place(String place) {
+        this._place = place;
+    }
+
+    public String get_place() {
+        return _place;
     }
 }

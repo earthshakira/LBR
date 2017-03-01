@@ -3,6 +3,7 @@ package com.kaliya.lbr;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        DBHandler db = new DBHandler(this, null, null, 1);
+        Log.d("helo", "onCreate: ");
+        DBHandler db = new DBHandler(this, null, null, 2);
         //List<Reminder> reminders = db.getAllReminders();
 
         /*for (Reminder cn : reminders) {
@@ -46,10 +48,9 @@ public class MainActivity extends AppCompatActivity{
                 Toast.makeText(getApplicationContext(),((TextView) view).getText(), Toast.LENGTH_SHORT).show();
             }
         });
-
+        startService(new Intent(this, MyGoogleApiClientService.class));
         /*Vector<String> values = new Vector<String>();
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.activity_listview,values);*/
-
     }
 
     private void printDatabase() {
