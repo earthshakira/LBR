@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_5a801d4cb13f5c31d737716007092e75ae84c011/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_ae2dd90e4b8971b331c541960841145ef4c7eeed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_c88504e11c2029f6f783235705ede3651b38664b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_b632d0aa795218e0c7116d0bac76796acc33c087/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_708af9bd18d094a31c7e06b265ec98a98d0b8f4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_eeb5f7087f91df309c7d055c9c83cdda0bb5512d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_8608f0e9885d26d49885b1d952967826b391f90b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_e2de5a195d08f297ade8f293d9dfc39c23aa385a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3d194424ae546e9f8db7f9db8a9255bbd8f75c3">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7edbee77946f32a28125da9c1801bab6267e561a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_68af1eea6d22dcfd079599d2ea358075bb2cc8a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_c175c77c48fdf36f1607ec2103ad94768f6eb27c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_909e00911ac88f61739365585aa6bcabd6219f39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_5c564cbbd388a6c00c4b93d33fd9092bad6324ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_02f4f620e8c1e248735730da0c3e88b65f570b32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_d2f48e3c21cacad73fe8157578fb271a5a26930d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_f046b9aef786e29082eebdd12ad57c521ab7ee9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_0f301ca9f213f3e1735ebdcb50a6ce4da9d9f4a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_fe0458ade2056de84bc9354ad879fa438989ae1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_291d309f8b498a4a95df51c0a25925bccf88bfc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_04698af499d4c6941393f6aec178bbe9c442d842/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_fa62cd128b956f399a352109e2aa8f27783301ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_fbe5c7547972ee901276192976c6fe1886fe31b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_5b8cfb9ec6f7a6d4f7f9e1c1ac56b93c8f764515/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_33981accfd1a57598f23bc07a01584a76e114ade/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_4239d8ab5a91dc9d5aa3c5b0332e2a06a82d710d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_04dd196455a7246e403bffde600d56c91f0e78a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_7141cf05289d6eb6614ee95a789ff204bc568160/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_dbf951a70c559bfbce5a3c5f84959a8e89ee6bdc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_7b71a379e5e7bcc8cd2664b517d5b7ce294daaea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_9b1792f301da5998b9d2ef5d159b4c274a8c7248/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_f298522933ca20fff090762133d99f5e5b711bbf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_78ec62ce2d94bf58a93e2336ea130b8a60ffb725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_cacea59af958f313ac6856b2d070ecf7f5e12246/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_a29e90137988470111524e029b69d2d06ca6a869/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_3640265c2fe772bc74b42d75d3e3ca98f9a74cbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_44f90666697e10f31452afc77fb8a26de276e21e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_061cd62cec814e056893e060447c573df9e5a2a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_85b04303527d4b28f0436f0ea0d11b0fcde030fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_0c7030c2b6ba08e10c6388e72a14613a6936d833/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_383d7783e5d286762183735369d0482707f7a265/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_29dd9b8436f150029f4548e94c0864e3a8db56ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_bf12b6e6b012b979d80f78b54781b111495a4674/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_ea3f5caba75ea275660d6e55c140e07b4a7630a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_77fe24ee34891d291d67a569991911c2ca720baa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_7f1d1a567c802d389d2f789f49f213f07047b076/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_e10da318f621d2bd3fa90c7abbbedcb95e0ed1a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_6b69d61d8442248c7d517f46caf7fb84109b3f19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_d4ac4d536bf7551fd1b1921e07d533621b0c8d4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_112ed2c832f12d3efd57575f87dd02f4846ab82d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_8b3b47985998c7fb0836a359273a935e1ff94912/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_27cd120980499c280efa667eb13af731a6282f0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_96b08cd105342d516e0b8c3ffafa512d76ef6756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_aa02dab0ba7e6d67770c349cf27d548999fc3eb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_d4f889f82b64d34e77e2878d705e17d4c4adedd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_a401e63a58f66ea84e677b7203752ece8b342f56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_12389ba2bac3bfcfcfbf0f82798eb478a8c9b3db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d61c9a51a427adc2fb6dd7002c51f9147e66ec5c">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_697fb4748051300344a2949d5527333df749a78e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_9e0f3d254bbb1a20499e3466191c5404b58f3010/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_056638a8429edda28b6a75e88ddb881cc67542af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_cd0c934eb86f8920d8fe77d3aee0d23dd477d22b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_8723513bbcf5dae5c3bb069a10f352736d53a473/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_0b3c1939e66aaec5a0f4ec6ef1ecc358ac9897e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/home/earthshakira/AndroidStudioProjects/LBR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_4acd761b052ece021dfb564f6b3344b8dadebeb2/classes.dex" />
+    </item>
+
+</items>
