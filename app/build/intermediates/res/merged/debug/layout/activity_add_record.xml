@@ -89,19 +89,6 @@
         android:layout_alignStart="@+id/time"
         android:onClick="clearTextFields"/>
 
-    <Button
-        android:text="Home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/homeButton"
-        android:onClick="home"
-        android:layout_alignBaseline="@+id/clearButton"
-        android:layout_alignBottom="@+id/clearButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp" />
-
     <TextView
         android:text="Location :"
         android:layout_width="wrap_content"

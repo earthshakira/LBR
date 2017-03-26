@@ -39,17 +39,19 @@ public class GeofenceTransitionsIntentService extends IntentService {
         } else {
             int transition = event.getGeofenceTransition();
             List<Geofence> geofences = event.getTriggeringGeofences();
-            Geofence geofence = geofences.get(0);
-            String requestId = geofence.getRequestId();
-            db = new DBHandler(getBaseContext(), null, null, 2);
-            Reminder now = db.getReminder(Integer.parseInt(requestId));
-            db.close();
-            if (transition == Geofence.GEOFENCE_TRANSITION_ENTER) {
-                Log.d(TAG, "onHandleIntent: Entering " + requestId);
-                notifier(now.get_taskname(),"Entering " + now.get_place(),Integer.parseInt(requestId));
-            } else if (transition == Geofence.GEOFENCE_TRANSITION_EXIT) {
-                Log.d(TAG, "onHandleIntent: Exiting  " + requestId);
-                notifier(now.get_taskname(),"Exiting " + now.get_place(),Integer.parseInt(requestId));
+            for(int i=0;i<geofences.size();i++) {
+                Geofence geofence = geofences.get(i);
+                String requestId = geofence.getRequestId();
+                db = new DBHandler(getBaseContext(), null, null, 2);
+                Reminder now = db.getReminder(Integer.parseInt(requestId));
+                db.close();
+                if (transition == Geofence.GEOFENCE_TRANSITION_ENTER) {
+                    Log.d(TAG, "onHandleIntent: Entering " + requestId);
+                    notifier(now.get_taskname(), "Entering " + now.get_place(), Integer.parseInt(requestId));
+                } else if (transition == Geofence.GEOFENCE_TRANSITION_EXIT) {
+                    Log.d(TAG, "onHandleIntent: Exiting  " + requestId);
+                    notifier(now.get_taskname(), "Exiting " + now.get_place(), Integer.parseInt(requestId));
+                }
             }
         }
     }

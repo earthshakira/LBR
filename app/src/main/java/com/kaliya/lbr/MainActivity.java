@@ -8,11 +8,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.location.LocationServices;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.kaliya.lbr.MyGoogleApiClientService.googleApiClient;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -36,21 +39,43 @@ public class MainActivity extends AppCompatActivity{
             Log.d("Task: ", log);
 
         }*/
+        //ArrayofTask = new ArrayList<String>();
         list=db.getAllReminders();
         listView = (ListView)findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, ArrayofTask);
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//
+//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Toast.makeText(getApplicationContext(),((TextView) view).getText(), Toast.LENGTH_SHORT).show();
+//            }
+//        });
+
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(),((TextView) view).getText(), Toast.LENGTH_SHORT).show();
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                DBHandler db = new DBHandler(getBaseContext(), null, null, 2);
+                String x = (ArrayofTask.get(position)).split("\n")[0];
+                Reminder deleter = db.getReminderByName(x);
+                ArrayList<String> geofenceIds = new ArrayList<>();
+                geofenceIds.add(deleter.get_id()+"");
+                LocationServices.GeofencingApi.removeGeofences(googleApiClient,geofenceIds);
+                db.deleteReminder(deleter);
+                db.getAllReminders();
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(getBaseContext(),
+                        android.R.layout.simple_list_item_1, ArrayofTask);
+                listView.setAdapter(adapter);
+                Toast.makeText(getApplicationContext(),"deleted task "+deleter.get_date()+" ->"+deleter.get_time(), Toast.LENGTH_SHORT).show();
+                return false;
             }
         });
         startService(new Intent(this, MyGoogleApiClientService.class));
         /*Vector<String> values = new Vector<String>();
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.activity_listview,values);*/
+
     }
 
     private void printDatabase() {

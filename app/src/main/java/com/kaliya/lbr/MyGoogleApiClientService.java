@@ -21,13 +21,14 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by earthshakira on 1/3/17.
  */
 
 public class MyGoogleApiClientService extends Service {
-    GoogleApiClient googleApiClient = null;
+    public static GoogleApiClient googleApiClient = null;
     String GEOFENCE_ID = "home_shizz";
 
     final String TAG = "APIClient";
@@ -86,17 +87,24 @@ public class MyGoogleApiClientService extends Service {
         Log.d(TAG, "initGeofences: no. of fences "+locations.size());
         for( Reminder x : locations){
             String[] locStr = x.get_location().split(",");
-            startGeofenceMonitoring(Double.parseDouble(locStr[0]),Double.parseDouble(locStr[1]),String.valueOf(x.get_id()));
+            startGeofenceMonitoring(Double.parseDouble(locStr[0]),Double.parseDouble(locStr[1]),String.valueOf(x.get_id()),get_date_obj(x));
         }
     }
 
-    private void startGeofenceMonitoring(double lat,double lon,String id) {
+    Date get_date_obj(Reminder x){
+        String date[] = x.get_date().split("-");
+        String time[] = x.get_time().split(":");
+        int day = Integer.parseInt(date[0]),mm=Integer.parseInt(date[1]),y=Integer.parseInt(date[2]);
+        int hours = Integer.parseInt(time[0]),min=Integer.parseInt(time[1]);
+        return new Date(y,mm,day,hours,min);
+    }
+    private void startGeofenceMonitoring(double lat,double lon,String id,Date exp) {
         Log.d(TAG, "startGeofenceMonitoring: ");
         try {
             Geofence geofence = new Geofence.Builder()
                     .setRequestId(id)
-                    .setCircularRegion( lat, lon , 100)
-                    .setExpirationDuration(Geofence.NEVER_EXPIRE)
+                    .setCircularRegion( lat, lon , 30)
+                    .setExpirationDuration(exp.getTime())
                     .setNotificationResponsiveness(1000)
                     .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER | Geofence.GEOFENCE_TRANSITION_EXIT)
                     .build();
@@ -134,10 +142,10 @@ public class MyGoogleApiClientService extends Service {
             Log.d(TAG, "startGeofenceMonitoring: Error"+e.getMessage());
         }
     }
-    private void stopGeofenceMonitoring(){
+    private void stopGeofenceMonitoring(String x){
         Log.d(TAG, "stopGeofenceMonitoring: ");
         ArrayList<String> geofenceIds = new ArrayList<>();
-        geofenceIds.add(GEOFENCE_ID);
+        geofenceIds.add(x);
         LocationServices.GeofencingApi.removeGeofences(googleApiClient,geofenceIds);
     }
 

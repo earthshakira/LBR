@@ -7,8 +7,13 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
+import static android.content.ContentValues.TAG;
 
 public class DBHandler extends SQLiteOpenHelper {
 
@@ -92,16 +97,33 @@ public class DBHandler extends SQLiteOpenHelper {
         return reminder;
     }
 
+    Reminder getReminderByName(String name) {
+        SQLiteDatabase db = getReadableDatabase();
+        String selectQuery = "SELECT  * FROM " + TABLE_NAME+" where "+COLUMN_TASKNAME+"='"+name+"'";
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        Reminder reminder = new Reminder(Integer.parseInt(cursor.getString(0)),
+                cursor.getString(1),cursor.getString(2), cursor.getString(3),  cursor.getString(4),cursor.getString(5));
+        // return contact
+        db.close();
+        return reminder;
+    }
+
     // Getting All reminder
     public List<String> getAllReminders() {
         List<String> taskList = new ArrayList<String>();
         // Select All Query
+        List<Reminder> deleteList = new ArrayList<>();
         String selectQuery = "SELECT  * FROM " + TABLE_NAME;
 
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-
+        MainActivity.ArrayofTask = new ArrayList<>();
         // looping through all rows and adding to list
+        Date now = new Date();
         if (cursor.moveToFirst()) {
             do {
                 Reminder reminder = new Reminder();
@@ -110,7 +132,13 @@ public class DBHandler extends SQLiteOpenHelper {
                 reminder.set_location(cursor.getString(5));
                 reminder.set_date(cursor.getString(3));
                 reminder.set_time(cursor.getString(4));
-
+                Date rem=get_date_obj(reminder);
+                Log.d(TAG, "getAllReminders: "+reminder.get_taskname()+" -> "+(rem.getTime()));
+                if(now.getTime()>=(rem.getTime())){
+                    Log.d(TAG, "getAllReminders: delting");
+                    deleteList.add(reminder);
+                    continue;
+                }
                 String name = cursor.getString(1) +"\n"+ cursor.getString(5);
                 MainActivity.ArrayofTask.add(name);
                 // Adding reminder to list
@@ -118,6 +146,8 @@ public class DBHandler extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
         }
         db.close();
+        for(int i = 0;i<deleteList.size();i++)
+            deleteReminder(deleteList.get(i));
        return taskList;
     }
 
@@ -178,5 +208,19 @@ public class DBHandler extends SQLiteOpenHelper {
 
         // return count
         return cursor.getCount();
+    }
+
+    Date get_date_obj(Reminder x){
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm");
+        String dateInString = x.get_date()+" "+x.get_time();
+        Date date = null;
+        try {
+            date = sdf.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return date;
     }
 }
