@@ -20,6 +20,8 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -92,19 +94,26 @@ public class MyGoogleApiClientService extends Service {
     }
 
     Date get_date_obj(Reminder x){
-        String date[] = x.get_date().split("-");
-        String time[] = x.get_time().split(":");
-        int day = Integer.parseInt(date[0]),mm=Integer.parseInt(date[1]),y=Integer.parseInt(date[2]);
-        int hours = Integer.parseInt(time[0]),min=Integer.parseInt(time[1]);
-        return new Date(y,mm,day,hours,min);
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm");
+        String dateInString = x.get_date()+" "+x.get_time();
+        Date date = null;
+        try {
+            date = sdf.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return date;
     }
+
     private void startGeofenceMonitoring(double lat,double lon,String id,Date exp) {
         Log.d(TAG, "startGeofenceMonitoring: ");
         try {
             Geofence geofence = new Geofence.Builder()
                     .setRequestId(id)
                     .setCircularRegion( lat, lon , 30)
-                    .setExpirationDuration(exp.getTime())
+                    .setExpirationDuration(exp.getTime() - (new Date().getTime()))
                     .setNotificationResponsiveness(1000)
                     .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER | Geofence.GEOFENCE_TRANSITION_EXIT)
                     .build();
